@@ -1,0 +1,16 @@
+<html>
+    <head>
+     <title>HELLO!</title>
+    </head>
+    <body>
+      <h1>This is hello website.</h1>
+      <p>I created this webpage myself.</p>
+      <p id="result"></p>
+      <script>
+        var myObj={name:"Mervan",age:12,grade:7};
+        var myJSON=JSON.stringify(myObj);
+        var newJSON=JSON.parse(myJSON); 
+        document.getElementById("result").innerHTML="My brother's name is " +myObj.name+" he is "+myObj.age+" years old."+" He goes to grade "+myObj.grade;
+     </script>
+    </body>
+</html>
